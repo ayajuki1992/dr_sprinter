@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  /* Updated to match the logo's energy */
+  --color-brand-orange: #f97316; 
+  --color-garage: #050505;
+  --color-steel: #121214;
+}
