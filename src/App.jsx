@@ -105,7 +105,7 @@ function Home() {
             <Zap size={12} fill="currentColor" /> Mercedes Specialist // Mobile Support // Mon-Sat
           </motion.div>
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-[14vw] md:text-[10vw] leading-[0.8] font-black tracking-tighter uppercase italic mb-8">
-            MOBILE TESTING!!! <br /> <span className="text-brand-orange">MASTER.</span>
+            MOBILE MECHANIC <br /> <span className="text-brand-orange">MASTER.</span>
           </motion.h1>
           <p className="text-zinc-500 max-w-xl text-lg md:text-xl font-medium leading-relaxed mb-10">
             Expert mobile mechanical repairs brought to your door. From advanced diagnostics to full breakdowns—we restore mobility in the West Midlands.
