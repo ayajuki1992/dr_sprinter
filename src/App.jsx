@@ -3,6 +3,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Phone, Wrench, Gauge, Shield, Zap, ArrowRight, CornerDownRight, ChevronDown, HelpCircle, Mail } from 'lucide-react';
 import Reviews from './Reviews';
+import { Analytics } from "@vercel/analytics/react";
 
 // Page Imports
 import Contact from './Contact';
@@ -271,6 +272,7 @@ function FAQItem({ question, answer }) {
           </motion.div>
         )}
       </AnimatePresence>
+      <Analytics />
     </div>
   );
 }
