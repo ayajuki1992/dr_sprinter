@@ -53,8 +53,8 @@ export default function App() {
             <Link to="/contact" className={`hover:text-brand-orange transition-colors ${location.pathname === '/contact' ? 'text-brand-orange' : ''}`}>Contact</Link>
           </div>
 
-          <a href="tel:+447444284428" className="bg-brand-orange text-white px-6 py-2.5 rounded-full font-black text-xs flex items-center gap-2 hover:brightness-110 transition-all shadow-[0_0_30px_rgba(249,115,22,0.3)]">
-            <Phone size={14} fill="white" /> 07444 284 428
+          <a href="tel:+4477143309383" className="bg-brand-orange text-white px-6 py-2.5 rounded-full font-black text-xs flex items-center gap-2 hover:brightness-110 transition-all shadow-[0_0_30px_rgba(249,115,22,0.3)]">
+            <Phone size={14} fill="white" /> 0771 433 09383
           </a>
         </div>
       </nav>
